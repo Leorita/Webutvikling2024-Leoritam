@@ -29,6 +29,47 @@
         <section>
             <h2> om oss</h2>
         </section>
+        <section>
+            <h2> Ta kontakt med oss i dag</h2>
+            <form method="post">
+                <label for="navn">navn:</label>
+                <input type="text" name="navn" placeholder="Nora nordman." id="navn" maxlength="45" required="">
+
+
+                <label> 
+                    E-post:
+                    <input type="email" name="email" placeholder="eksempel@hiof.no" maxlength="65" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                </label>
+                <label>
+                    Emne:
+                    <input type="text" name="emne" placeholder="Hva handler det om?" required>
+                </label>
+                <label>
+                    <textarea name="melding" placeholder="Handler om..."></textarea required>
+                </label>
+                <label>
+                    nei
+                    <input type="radio" name="valg">
+                </label>
+                <label>
+                    ja
+                    <input type="radio" name="valg">
+                </label>
+                <label>
+                    Kanskje
+                    <input type="radio" name="valg">
+                </label>
+                <input type="submit" value="send melding">
+                
+                <label>
+                Favoritt mat
+                <select>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Pizza">Sushi</option>
+                    <option value="Pizza">Kebab</option>
+                </select>
+            </form>
+        </section>
     </main>
         <footer> 2024 Leorita m</footer>
     </body>
