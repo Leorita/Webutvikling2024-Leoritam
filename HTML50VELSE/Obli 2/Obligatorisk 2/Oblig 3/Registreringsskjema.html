@@ -35,11 +35,11 @@
                     </label>
 
                     <label for="E-mail">E-mail
-                        <input type="e-post" name="Email" placeholder="Eksempel123@hotmail.com" id="E-mail" type="email" required>
+                        <input type="email" name="Email" placeholder="Eksempel123@hotmail.com" id="E-mail" required>
                     </label>    
 
                     <label for="passord">Passord
-                        <input type="passord" name="Passord" id="passord" maxlength="30" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                        <input type="password" name="Passord" id="passord" maxlength="30" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     </label>
 
                     <label for="alder"> Alder
@@ -49,13 +49,39 @@
                     <label for="telefonnummer"> Telefonnummer
                         <input type="telefon" name="Telefonnummer" placeholder="12345678" id="telefonnummer" pattern="[0-9]{8,12}" required>
 
-                    <label for="Fødselsdato"> Fødselsdato
-                        <input type="dato" name="Fødselsdato" id="Fødselsdato" type="date" max="2023-12-31" required>
+                    <label for="fødselsdato"> Fødselsdato
+                        <input type="dato" name="Fødselsdato" id="fødselsdato" type="date" max="2023-12-31" required>
                     </label>
 
-                    <label>     Kjønn
-                        <input type="radio" name
+                
+                    
+                    <label> 
+                      
+                        <input type="radio" name="kjønn" required> 
+                        Kvinne
                     </label>
+                    <label>
+                        <input type="radio" name="kjønn" required>
+                        Mann
+                    </label>
+                    <label>
+                        <input type="radio" name="kjønn" required>
+                        Annet
+                    </label>
+
+                    <label for="Land"> 
+                        <select name="land"> Land
+                            <option value="Norge"> Norge</option>
+                            <option value="Sverige"> Sverige</option>
+                            <option value="Danmark"> Danmark</option>
+                        </select>
+                    </label>
+                    <label for="personvern">
+                        <input type="checkbox" id="personvern" required>
+                        Personvern bla bla bla...
+                    </label>
+
+                    <input type="submit" value="send melding">
                 </form>
             </section>
         </main>
