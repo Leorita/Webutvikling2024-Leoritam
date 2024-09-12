@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Øvelse 2</title>
+        <title> Øvelse 3</title>
     </head>
     <body>
     <header id="topp">
@@ -43,20 +43,20 @@
                     </label>
 
                     <label for="alder"> Alder
-                        <input type="tall" name="Alder" id="alder" type="number" min="18" max="99" required>
+                        <input type="number" name="Alder" id="alder" min="18" max="99" required>
                     </label>
 
                     <label for="telefonnummer"> Telefonnummer
-                        <input type="telefon" name="Telefonnummer" placeholder="12345678" id="telefonnummer" pattern="[0-9]{8,12}" required>
+                        <input type="tel" name="Telefonnummer" placeholder="12345678" id="telefonnummer" pattern="[0-9]{8,12}" required>
+                    </label>
 
                     <label for="fødselsdato"> Fødselsdato
-                        <input type="dato" name="Fødselsdato" id="fødselsdato" type="date" max="2023-12-31" required>
+                        <input type="date" name="Fødselsdato" id="fødselsdato" max="2023-12-31" required>
                     </label>
 
                 
                     
-                    <label> 
-                      
+                    <label>                     
                         <input type="radio" name="kjønn" required> 
                         Kvinne
                     </label>
@@ -69,8 +69,9 @@
                         Annet
                     </label>
 
-                    <label for="Land"> 
-                        <select name="land"> Land
+                    <label> 
+                        Land
+                        <select name="land">
                             <option value="Norge"> Norge</option>
                             <option value="Sverige"> Sverige</option>
                             <option value="Danmark"> Danmark</option>
