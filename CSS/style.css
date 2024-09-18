@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+h1{
+    color: rgb(47, 38, 122);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(247, 187, 197);
+    padding: 2rem; /*Luft i paddingen, altså boksen i Css er best-->*/
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn{
+    background-color: rgb(10, 7, 7);
+    color: #FFFF;
+    padding: 2rem;
+    display: inline-block;
+    margin: 10px 5px 5px 3px;
+/*
+    margin-top: 10px;
+    margin-left: 3px;
+
+    */
+}
