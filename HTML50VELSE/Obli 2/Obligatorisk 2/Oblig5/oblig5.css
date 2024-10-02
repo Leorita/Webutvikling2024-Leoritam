@@ -1,0 +1,21 @@
+ header {
+    background-image: url("Leorita.jpeg");
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: padding;
+}
+
+ header h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+ }
+
+ footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+ }
